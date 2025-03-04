@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.API", "WebScraper.API\WebScraper.API.csproj", "{FBC60B19-74EC-4002-9390-A842EFE1BC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Application", "..\WebScraper.Application\WebScraper.Application.csproj", "{CB126434-BCA2-447C-9FCD-B5486DCBA0C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Infrastructure", "..\WebScraper.Infrastructure\WebScraper.Infrastructure.csproj", "{9F9FA0B8-382F-41AD-ACD1-409D2B235066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Domain", "..\WebScraper.Domain\WebScraper.Domain.csproj", "{FF28C345-4007-499A-BF44-88A8CDC043E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScraper.Tests", "..\WebScraper.Tests\WebScraper.Tests.csproj", "{048EFCA3-CC4F-4C71-A4E3-E5B0A0680612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBC60B19-74EC-4002-9390-A842EFE1BC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC60B19-74EC-4002-9390-A842EFE1BC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC60B19-74EC-4002-9390-A842EFE1BC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC60B19-74EC-4002-9390-A842EFE1BC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB126434-BCA2-447C-9FCD-B5486DCBA0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB126434-BCA2-447C-9FCD-B5486DCBA0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB126434-BCA2-447C-9FCD-B5486DCBA0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB126434-BCA2-447C-9FCD-B5486DCBA0C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9FA0B8-382F-41AD-ACD1-409D2B235066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9FA0B8-382F-41AD-ACD1-409D2B235066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9FA0B8-382F-41AD-ACD1-409D2B235066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9FA0B8-382F-41AD-ACD1-409D2B235066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF28C345-4007-499A-BF44-88A8CDC043E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF28C345-4007-499A-BF44-88A8CDC043E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF28C345-4007-499A-BF44-88A8CDC043E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF28C345-4007-499A-BF44-88A8CDC043E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048EFCA3-CC4F-4C71-A4E3-E5B0A0680612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048EFCA3-CC4F-4C71-A4E3-E5B0A0680612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048EFCA3-CC4F-4C71-A4E3-E5B0A0680612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048EFCA3-CC4F-4C71-A4E3-E5B0A0680612}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
