@@ -1,6 +1,7 @@
 using WebScraper.Application.Interfaces;
 using WebScraper.Application.Services;
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,7 +17,21 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddHttpClient();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:3000") 
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();
+        });
+});
+
+
 var app = builder.Build();
+
+app.UseCors(MyAllowSpecificOrigins);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
